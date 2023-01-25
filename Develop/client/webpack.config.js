@@ -21,7 +21,6 @@ module.exports = () => {
         template: './index.html',
         title: 'JATE Challenge - #19'
       }),
-      // new MiniCssExtractPlugin(),
       new InjectManifest({
         swSrc: './src/sw.js',
         swDest: 'service-worker.js',
